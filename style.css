@@ -1,0 +1,145 @@
+header a {
+    text-decoration: none; 
+    color: inherit; 
+}
+
+header {
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    gap: 10%; 
+    position: fixed;
+    width: 100vw;
+    font-family: monospace;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+}
+
+.business-title {
+
+    font-size: 42px; 
+    font-family: monospace;
+    font-weight: bold;
+    margin: 30px; 
+}
+
+nav {
+    display: flex; 
+    gap: 60px;
+    font-size: 19px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: whitesmoke;
+    background-color:#000; 
+}
+
+.container {
+    border: 2px solid #000;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    position: relative;
+
+
+}
+
+
+.marsa {
+    background-image: url("./images/star.jpg")
+    }
+    
+    .marsb {
+        background-image: url("./images/earth.jpeg")
+    }
+    
+    .marsc {
+        background-image: url("./images/closeearth.jpeg")
+    }
+    
+        
+
+.text{
+    position: absolute; 
+    bottom: 100px; 
+    left: 50px; 
+}
+
+.text-round{
+    position: absolute; 
+    bottom: 200px; 
+    left: 50px; 
+}
+
+.text-bottom{
+    position: absolute; 
+    bottom: 150px; 
+    left: 50px; 
+}
+
+h3 {
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    font-weight:lighter; 
+}
+
+h2 {
+    font-size: 37px;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+
+.one {
+    background-color:black;
+
+}
+
+.two {
+    background-color:blueviolet;
+    height: 800px;
+}
+    
+
+.three {
+    background-color:blue;
+
+}
+
+button {
+    width: 150px;
+    height: 50px; 
+    border: 2px solid whitesmoke;
+    background-color: transparent;
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s;
+    color: whitesmoke; 
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button:hover {
+    background-color: whitesmoke;
+    color: black;
+}
+
+footer {
+    background-color: #000;
+    z-index: 10;
+    display: flex;
+    justify-content: center; 
+    gap: 10%; 
+    position: relative;
+    width: 100vw;
+    margin: 10px; 
+    align-items: center;  
+}
+
+footer a{
+    color: whitesmoke; 
+    text-decoration: none; 
+}
+
